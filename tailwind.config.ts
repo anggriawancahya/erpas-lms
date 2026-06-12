@@ -1,6 +1,20 @@
 import type { Config } from "tailwindcss";
+import daisyui from "daisyui";
 
-const config: Config = {
+interface CustomConfig extends Config {
+  daisyui?: {
+    themes?: boolean | string[] | Record<string, Record<string, string>>[];
+    darkTheme?: string;
+    base?: boolean;
+    styled?: boolean;
+    utils?: boolean;
+    prefix?: string;
+    logs?: boolean;
+    themeRoot?: string;
+  };
+}
+
+const config: CustomConfig = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -14,9 +28,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [daisyui,],
   daisyui: {
     themes: ["light", "winter"], // Winter memberikan kesan bersih untuk aplikasi edukasi
   },
-};
+} satisfies CustomConfig;
 export default config;
