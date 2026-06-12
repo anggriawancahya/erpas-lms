@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ERPAS LMS (Learning Management System)
 
-## Getting Started
+Selamat datang di ERPAS LMS, sebuah sistem manajemen pembelajaran (Learning Management System) yang dirancang khusus untuk yayasan pendidikan dengan banyak unit sekolah. Aplikasi ini bertujuan untuk mempermudah proses belajar mengajar, baik bagi siswa maupun pengajar, dengan fokus pada pengalaman mobile-ready yang intuitif dan mudah diakses.
 
-First, run the development server:
+## Tentang Aplikasi Ini
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+ERPAS LMS adalah prototipe awal yang dikembangkan untuk memenuhi kebutuhan yayasan dalam mengelola materi pelajaran, aktivitas siswa, dan penilaian secara terpusat. Dengan pendekatan mobile-first, kami memastikan bahwa aplikasi ini dapat diakses dengan nyaman melalui perangkat seluler, memberikan fleksibilitas belajar di mana saja dan kapan saja.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Fitur Utama (Prototipe)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Untuk Siswa:
+- **Dashboard Personal:** Melihat ringkasan progres belajar dan kursus yang sedang diikuti.
+- **Daftar Kursus Interaktif:** Menjelajahi mata pelajaran dengan struktur bab yang jelas (teks, video, PDF, kuis).
+- **Ruang Belajar Fleksibel:** Mengakses materi pelajaran dengan mudah, mendukung berbagai format konten.
+- **Modul Kuis:** Mengikuti evaluasi mandiri dengan soal pilihan ganda dan penghitung waktu.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Untuk Pengajar:
+- **Dasbor Pengajar:** Mengelola kelas dan memantau aktivitas siswa.
+- **Manajemen Materi:** Menambah, mengedit, atau menghapus materi pelajaran dalam silabus.
+- **Buku Nilai Digital:** Melihat dan mengelola nilai kuis siswa secara otomatis.
 
-## Learn More
+### Akses & Keamanan:
+- **Login Multi-Tenant:** Sistem login yang mendukung banyak unit sekolah dalam satu platform.
 
-To learn more about Next.js, take a look at the following resources:
+## Tujuan Proyek 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Prototipe ini dikembangkan dalam waktu singkat (1 bulan) untuk menunjukkan potensi dan fungsionalitas inti dari ERPAS LMS, dengan harapan dapat menjadi dasar pengembangan lebih lanjut menuju aplikasi yang lengkap dan stabil.
