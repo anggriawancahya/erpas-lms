@@ -1,18 +1,13 @@
 {
-  "id": "user-siswa-001",
-  "name": "Anggriawan",
-  "email": "anggriawan@example.com",
+  "id": "std-001",
+  "name": "Budi Rahardjo",
   "role": "student",
-  "school_unit": "SMA 1 Yayasan",
-  "class": "Kelas X-A",
-  "profile_picture": "/images/avatar-anggriawan.jpg",
-  "active_courses": [
+  "school_unit": "SMA 1 Yayasan Pendidikan",
+  "class": "X-IPA-1",
+  "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Budi",
+  "enrolled_courses": [
     "course-math-001",
     "course-physics-002"
   ],
-  "last_accessed_lesson": {
-    "course_id": "course-math-001",
-    "lesson_id": "lesson-math-001-02-01",
-    "progress_percentage": 0
-  }
+  "total_progress": 52
 }

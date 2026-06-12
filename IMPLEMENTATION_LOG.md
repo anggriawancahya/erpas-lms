@@ -17,9 +17,11 @@
 ### [X] Mock Data
 - Folder `src/data/` telah dibuat.
 - File `src/data/courses.json` telah dibuat dengan data tiruan.
-- File `src/data/user_profile.json` telah dibuat dengan data tiruan.
 
-### [ ] Selanjutnya (Action Items)
-- Membuat folder `src/data/` dan mengisi mock data JSON (courses.json, user.json).
-- Membuat komponen `Navbar` dan `BottomNav` untuk mobile navigation.
-- Mengimplementasikan Halaman Login (Multi-Tenant).
+## Minggu 2: Autentikasi & Dashboard Utama (Siswa)
+
+### [ ] Action Items
+- [X] Membuat mock data `user_profile.json`.
+- [ ] Mengimplementasikan Halaman Login dengan selektor Unit Sekolah.
+- [ ] Membuat komponen `Layout` dengan `BottomNav` untuk akses mobile.
+- [ ] Membuat Halaman Dashboard Siswa (Ringkasan Progres).
