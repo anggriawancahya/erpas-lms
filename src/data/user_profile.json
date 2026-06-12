@@ -1,0 +1,18 @@
+{
+  "id": "user-siswa-001",
+  "name": "Anggriawan",
+  "email": "anggriawan@example.com",
+  "role": "student",
+  "school_unit": "SMA 1 Yayasan",
+  "class": "Kelas X-A",
+  "profile_picture": "/images/avatar-anggriawan.jpg",
+  "active_courses": [
+    "course-math-001",
+    "course-physics-002"
+  ],
+  "last_accessed_lesson": {
+    "course_id": "course-math-001",
+    "lesson_id": "lesson-math-001-02-01",
+    "progress_percentage": 0
+  }
+}

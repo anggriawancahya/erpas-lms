@@ -14,6 +14,12 @@
 ### [X] Pembersihan Halaman Utama
 - File `src/app/page.tsx` telah dibersihkan dari boilerplate Vercel.
 
+### [X] Mock Data
+- Folder `src/data/` telah dibuat.
+- File `src/data/courses.json` telah dibuat dengan data tiruan.
+- File `src/data/user_profile.json` telah dibuat dengan data tiruan.
+
 ### [ ] Selanjutnya (Action Items)
 - Membuat folder `src/data/` dan mengisi mock data JSON (courses.json, user.json).
 - Membuat komponen `Navbar` dan `BottomNav` untuk mobile navigation.
+- Mengimplementasikan Halaman Login (Multi-Tenant).
