@@ -1,0 +1,79 @@
+========================================================================
+BLUEPRINT FRONTEND LMS WEB (MOBILE-READY MVP - 1 MONTH PROTOTYPE)
+Sistem Skala Yayasan (20 Unit Sekolah, 2000+ Pengguna)
+========================================================================
+
+DESAIN UTAMA: 
+- Mobile-First Approach (Layout ramping, ramah sentuhan layar ponsel)
+- UI-Driven Development (Menggunakan Mock Data JSON lokal sebelum integrasi API)
+
+------------------------------------------------------------------------
+KELOMPOK 1: HALAMAN AKSES & AUTENTIKASI (UNIVERSAL)
+------------------------------------------------------------------------
+
+1. Halaman Login (Multi-Tenant)
+   - Deskripsi: Pintu masuk utama sistem untuk seluruh unit sekolah.
+   - Fitur Utama:
+     * [ ] Form Input: Email atau Nomor Induk Pengguna.
+     * [ ] Form Input: Kata Sandi (Password) dengan ikon toggle mata (lihat/sembunyikan).
+     * [ ] Dropdown Selector Unit Sekolah: Pilihan instansi (misal: "SMA 1 Yayasan", "SMP 2 Yayasan") atau sistem auto-detect berbasis domain/email.
+     * [ ] Tombol "Masuk" (Status: Loading state saat diklik).
+   - Catatan Mobile: Input keyboard otomatis menyesuaikan (e.g., keyboard email/angka).
+
+------------------------------------------------------------------------
+KELOMPOK 2: HALAMAN SISI SISWA (AKTOR UTAMA)
+------------------------------------------------------------------------
+
+2. Halaman Dashboard Utama Siswa
+   - Deskripsi: Halaman rangkuman aktivitas belajar siswa setelah login.
+   - Fitur Utama:
+     * [ ] Ringkasan Profil: Foto, nama siswa, kelas, dan nama unit sekolah.
+     * [ ] Widget "Lanjutkan Belajar": Kartu (card) akses cepat ke materi terakhir yang dibuka, lengkap dengan progress bar (e.g., "65% Selesai").
+     * [ ] Grid Daftar Kursus: Kumpulan kartu mata pelajaran yang aktif di semester berjalan.
+     * [ ] Menu Navigasi (Mobile: Bottom Navigation Bar / Desktop: Sidebar).
+
+3. Halaman Daftar Isi Kursus (Course Detail)
+   - Deskripsi: Halaman silabus atau struktur bab dari satu mata pelajaran yang dipilih.
+   - Fitur Utama:
+     * [ ] Header Kursus: Judul mata pelajaran dan nama guru pengampu.
+     * [ ] Struktur Bab (Accordion/List): Pengelompokan materi berdasarkan Bab (Bab 1, Bab 2, dst.).
+     * [ ] Indikator Progres Bab: Ikon centang hijau jika materi sudah selesai dibaca, atau ikon gembok jika materi masih terkunci.
+     * [ ] Komponen Kartu Tautan: Pembeda visual antara jenis materi (Teks, Video, PDF, atau Kuis).
+
+4. Halaman Ruang Belajar (Lesson Player)
+   - Deskripsi: Tempat siswa mengonsumsi konten atau materi utama.
+   - Fitur Utama:
+     * [ ] Media Viewer Eksternal/Internal: Area untuk pemutar video (YouTube/Vimeo embed), pembaca PDF, atau teks artikel.
+     * [ ] Tombol "Tandai Selesai & Lanjut": Tombol aksi utama di bagian bawah untuk berpindah ke materi berikutnya.
+     * [ ] Sidebar/Drawer Navigasi Konten: Menu geser untuk melihat daftar bab tanpa perlu keluar dari ruang belajar.
+
+5. Halaman Modul Kuis (Quiz Page)
+   - Deskripsi: Lembar kerja evaluasi mandiri berbentuk digital.
+   - Fitur Utama:
+     * [ ] Status Informasi: Penghitung waktu mundur (Countdown Timer) dan informasi nomor soal (e.g., "Soal 3 dari 10").
+     * [ ] Area Soal Pilihan Ganda: Teks pertanyaan (mendukung gambar) dan tombol pilihan radio (A, B, C, D, E) berukuran besar agar mudah ditekan di layar sentuh.
+     * [ ] Grid Navigasi Soal: Kumpulan kotak nomor untuk melompat antar-soal (Warna berubah jika sudah diisi).
+     * [ ] Tombol "Kirim Jawaban": Pop-up konfirmasi akhir sebelum nilai dikalkulasi.
+
+------------------------------------------------------------------------
+KELOMPOK 3: HALAMAN SISI PENGAJAR / GURU
+------------------------------------------------------------------------
+
+6. Dasbor Guru & Manajemen Kelas (Panel Pengajar)
+   - Deskripsi: Pusat kendali guru untuk mengelola kelas dan memantau siswa di unit sekolahnya.
+   - Fitur Utama:
+     * [ ] Filter Kelas & Mata Pelajaran: Dropdown untuk memilih kelas yang diajar (e.g., "Kelas X-A SMA 1").
+     * [ ] Kontrol Manajemen Materi (CRUD Sederhana): Tombol tambah bab baru, unggah file, atau sematkan tautan video ke dalam silabus.
+     * [ ] Buku Nilai (Gradebook): Tabel daftar nama siswa beserta nilai kuis yang otomatis terisi setelah siswa selesai mengerjakan.
+
+------------------------------------------------------------------------
+STRATEGI PENGEMBANGAN FRONTEND (MINGGU 1-4)
+------------------------------------------------------------------------
+- Minggu 1: Setup struktur folder proyek dan buat Mock Data (JSON lokal).
+- Minggu 2: Selesaikan Halaman Login & Dashboard Utama (Siswa & Guru).
+- Minggu 3: Selesaikan Halaman Daftar Isi Kursus & Ruang Belajar.
+- Minggu 4: Selesaikan Halaman Kuis, Buku Nilai, dan Uji Coba Alur (End-to-End).
+========================================================================
+
+1. Gunakan Mock Data JSON: Karena rekan API belum bekerja, buatlah satu file lokal berisi data palsu berbentuk JSON (misal: courses.json, user_profile.json). Gunakan data ini untuk mengisi tampilan halaman Anda. Saat backend sudah siap, Anda tinggal mengganti sumber datanya ke URL API asli tanpa mengubah desain visual.
+2. Pilih Framework UI Component: Gunakan pustaka komponen seperti Tailwind CSS dikombinasikan dengan DaisyUI, Chakra UI, atau Mantine. Jangan membuat tombol atau kartu dari nol agar pengerjaan 6 halaman di atas bisa selesai dalam waktu kurang dari 3 minggu.

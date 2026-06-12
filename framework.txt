@@ -1,0 +1,69 @@
+========================================================================
+REKOMENDASI FRAMEWORK & TECH STACK FRONTEND LMS YAYASAN
+Target: Prototipe 1 Bulan & Kesiapan Migrasi ke Mobile App (Android/iOS)
+========================================================================
+
+------------------------------------------------------------------------
+🏆 PILIHAN UTAMA: NEXT.JS (REACT ECOSYSTEM)
+------------------------------------------------------------------------
+Next.js adalah framework berbasis React yang sangat direkomendasikan untuk 
+proyek ini karena memiliki ekosistem terbesar dan paling ramah untuk 
+pengembangan mobile jangka panjang.
+
+Mengapa Next.js?
+1. Ekosistem Komponen Melimpah (Hemat Waktu 1 Bulan):
+   LMS membutuhkan banyak komponen rumit (video player, file viewer, kuis, 
+   countdown timer). Di ekosistem React, semua komponen ini sudah tersedia 
+   sebagai library siap pakai, sehingga Anda tidak perlu ngoding dari nol.
+
+2. Jembatan Terbaik Menuju Mobile App (React Native):
+   Jika nanti aplikasi mobile dibangun menggunakan React Native, tim mobile 
+   bisa menyalin ulang (reuse) logika bisnis, struktur API, dan state 
+   management yang sudah Anda buat di Next.js. Ini menghemat waktu rilis.
+
+3. File-based Routing & App Router:
+   Membuat manajemen navigasi untuk 6 halaman utama LMS (Dashboard, Lesson, 
+   Quiz, dll) menjadi sangat rapi, terstruktur, dan mudah dipahami tim.
+
+------------------------------------------------------------------------
+🎨 PENDAMPING UI: TAILWIND CSS + DAISYUI / SHADCN UI
+------------------------------------------------------------------------
+Untuk mengejar tenggat waktu 1 bulan, dilarang keras menulis CSS manual.
+
+Mengapa kombinasi ini?
+1. DaisyUI / Shadcn UI menyediakan komponen siap pakai yang kritis untuk LMS, 
+   seperti: Accordion (untuk silabus bab), Dropdown (untuk pilih 20 sekolah), 
+   Card (untuk daftar kursus), dan Progress Bar (untuk progres belajar).
+2. Memiliki utilitas responsif ponsel yang sangat matang secara bawaan (out of 
+   the box), menjamin web terlihat rapi seperti aplikasi mobile saat dibuka 
+   di browser smartphone (Mobile-First).
+
+------------------------------------------------------------------------
+🗂️ OPSI ALTERNATIF: NUXT.JS (VUE.JS ECOSYSTEM)
+------------------------------------------------------------------------
+Gunakan opsi ini HANYA JIKA tim frontend Anda saat ini jauh lebih menguasai 
+Vue.js dibandingkan React.
+
+Pertimbangan:
+- Kelebihan: Waktu belajar (learning curve) lebih cepat dan penulisan kode 
+  sangat rapi.
+- Catatan Mobile: Jika memilih Nuxt, di masa depan tim mobile app disarankan 
+  menggunakan Flutter atau Ionic/Capacitor (karena ekosistem Vue untuk mobile 
+  native tidak sepopuler React Native).
+
+------------------------------------------------------------------------
+⚡ PERINTAH INSTALASI AWAL PROYEK (NEXT.JS)
+------------------------------------------------------------------------
+Jalankan perintah ini di terminal komputer Anda untuk memulai proyek hari ini:
+
+npx create-next-app@latest lms-yayasan-prototype
+
+*Rekomendasi konfigurasi saat instalasi:*
+- TypeScript? Yes (Sangat disarankan agar integrasi data API lebih aman)
+- ESLint? Yes
+- Tailwind CSS? Yes
+- src/ directory? Yes
+- App Router? Yes
+- Customize default import alias? No
+
+========================================================================
