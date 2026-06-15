@@ -14,12 +14,12 @@ export default function Home() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
             <div className="card bg-base-200 p-4">
-              <span className="font-bold">Status Minggu 1</span>
-              <span className="badge badge-success mt-2 italic">Struktur Proyek Siap</span>
+              <span className="font-bold">Status Minggu 2</span>
+              <span className="badge badge-success mt-2 italic">Dashboard & Auth Selesai</span>
             </div>
             <div className="card bg-base-200 p-4">
               <span className="font-bold">Tahap Selanjutnya</span>
-              <span className="badge badge-primary mt-2">Mock Data & Login Page</span>
+              <span className="badge badge-primary mt-2">Course Detail & Lesson Player</span>
             </div>
           </div>
 

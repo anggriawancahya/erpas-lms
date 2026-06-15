@@ -4,20 +4,40 @@
     "title": "Matematika Dasar",
     "teacher": "Drs. Budi Setiawan",
     "progress": 65,
-    "last_lesson": "Aljabar Linear"
+    "last_lesson": "Aljabar Linear",
+    "chapters": [
+      {
+        "id": "ch-1",
+        "title": "Logika Matematika",
+        "lessons": [
+          { "id": "l-1", "title": "Pernyataan & Kalimat Terbuka", "type": "text", "status": "completed" },
+          { "id": "l-2", "title": "Operasi Logika", "type": "video", "status": "completed" }
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Aljabar Linear",
+        "lessons": [
+          { "id": "l-3", "title": "Matriks Dasar", "type": "video", "status": "current" },
+          { "id": "l-4", "title": "Determinan", "type": "pdf", "status": "locked" }
+        ]
+      }
+    ]
   },
   {
     "id": "2",
     "title": "Bahasa Indonesia",
     "teacher": "Ibu Siti Aminah",
     "progress": 30,
-    "last_lesson": "Teks Eksplanasi"
+    "last_lesson": "Teks Eksplanasi",
+    "chapters": []
   },
   {
     "id": "3",
     "title": "Fisika",
     "teacher": "Agus Pratama, M.Pd",
     "progress": 0,
-    "last_lesson": "Hukum Newton"
+    "last_lesson": "Hukum Newton",
+    "chapters": []
   }
 ]

@@ -17,11 +17,19 @@
 ### [X] Mock Data
  - [X] Definisi Type Interface di `src/types/index.ts`.
 
-## Minggu 2: Autentikasi & Dashboard Utama (Siswa)
+## Minggu 2: Autentikasi & Dashboard Utama (Siswa) - SELESAI
 
-### [ ] Action Items
+### [X] Action Items
 - [X] Membuat mock data `user_profile.json`.
  - [X] Membuat mock data `schools.json`.
 - [X] Mengimplementasikan Halaman Login dengan selektor Unit Sekolah.
 - [X] Membuat komponen `BottomNav` untuk akses mobile.
 - [X] Membuat Halaman Dashboard Siswa (Ringkasan Progres & Grid Kursus).
+
+## Minggu 3: Konten & Ruang Belajar
+
+### [ ] Action Items
+- [X] Standarisasi struktur data `courses.json` dengan detail silabus.
+- [ ] Mengimplementasikan Halaman Daftar Isi Kursus (`/courses/[id]`) dengan Silabus Accordion.
+- [ ] Membuat Halaman Ruang Belajar (Lesson Player) untuk Video & Teks.
+- [ ] Integrasi navigasi antar materi (Tandai Selesai).
