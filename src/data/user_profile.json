@@ -1,13 +1,9 @@
 {
   "id": "std-001",
-  "name": "Budi Rahardjo",
+  "name": "Budi Raharjo",
+  "email": "budi.siswa@yayasan.sch.id",
   "role": "student",
-  "school_unit": "SMA 1 Yayasan Pendidikan",
-  "class": "X-IPA-1",
+  "school_unit": "SMA 1 Yayasan",
   "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Budi",
-  "enrolled_courses": [
-    "course-math-001",
-    "course-physics-002"
-  ],
-  "total_progress": 52
+  "class": "X-A"
 }

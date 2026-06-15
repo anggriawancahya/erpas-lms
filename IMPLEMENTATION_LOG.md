@@ -15,13 +15,13 @@
 - File `src/app/page.tsx` telah dibersihkan dari boilerplate Vercel.
 
 ### [X] Mock Data
-- Folder `src/data/` telah dibuat.
-- File `src/data/courses.json` telah dibuat dengan data tiruan.
+ - [X] Definisi Type Interface di `src/types/index.ts`.
 
 ## Minggu 2: Autentikasi & Dashboard Utama (Siswa)
 
 ### [ ] Action Items
 - [X] Membuat mock data `user_profile.json`.
+ - [X] Membuat mock data `schools.json`.
 - [ ] Mengimplementasikan Halaman Login dengan selektor Unit Sekolah.
 - [ ] Membuat komponen `Layout` dengan `BottomNav` untuk akses mobile.
 - [ ] Membuat Halaman Dashboard Siswa (Ringkasan Progres).

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-base-200 flex flex-col items-center justify-center p-4">
@@ -21,9 +23,9 @@ export default function Home() {
             </div>
           </div>
 
-          <button className="btn btn-primary mt-8 btn-wide">
+          <Link href="/login" className="btn btn-primary mt-8 btn-wide">
             Mulai Bekerja
-          </button>
+          </Link>
         </div>
       </div>
     </main>
