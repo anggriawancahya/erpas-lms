@@ -1,82 +1,23 @@
 [
   {
-    "id": "course-math-001",
+    "id": "1",
     "title": "Matematika Dasar",
-    "teacher": "Budi Santoso, S.Pd.",
-    "description": "Mempelajari konsep dasar matematika untuk kelas X, mencakup aljabar, geometri, dan statistika.",
-    "thumbnail": "/images/math-thumbnail.jpg",
-    "progress": 75,
-    "chapters": [
-      {
-        "id": "chapter-math-001-01",
-        "title": "Bab 1: Aljabar",
-        "lessons": [
-          {
-            "id": "lesson-math-001-01-01",
-            "title": "Pengantar Aljabar",
-            "type": "Teks",
-            "status": "completed",
-            "content_url": "/content/math/aljabar-intro.md"
-          },
-          {
-            "id": "lesson-math-001-01-02",
-            "title": "Persamaan Linear Satu Variabel",
-            "type": "Video",
-            "status": "completed",
-            "content_url": "https://www.youtube.com/embed/example1"
-          },
-          {
-            "id": "lesson-math-001-01-03",
-            "title": "Latihan Soal Aljabar",
-            "type": "Kuis",
-            "status": "available",
-            "quiz_id": "quiz-math-001-01"
-          }
-        ]
-      },
-      {
-        "id": "chapter-math-001-02",
-        "title": "Bab 2: Geometri",
-        "lessons": [
-          {
-            "id": "lesson-math-001-02-01",
-            "title": "Dasar-dasar Geometri",
-            "type": "Teks",
-            "status": "available",
-            "content_url": "/content/math/geometri-dasar.md"
-          },
-          {
-            "id": "lesson-math-001-02-02",
-            "title": "Rumus Bangun Datar",
-            "type": "PDF",
-            "status": "locked",
-            "content_url": "/content/math/bangun-datar.pdf"
-          }
-        ]
-      }
-    ]
+    "teacher": "Drs. Budi Setiawan",
+    "progress": 65,
+    "last_lesson": "Aljabar Linear"
   },
   {
-    "id": "course-physics-002",
-    "title": "Fisika Kuantum",
-    "teacher": "Dr. Siti Aminah, M.Si.",
-    "description": "Pengantar dunia fisika kuantum untuk siswa tingkat lanjut, membahas dualisme gelombang-partikel dan mekanika kuantum.",
-    "thumbnail": "/images/physics-thumbnail.jpg",
+    "id": "2",
+    "title": "Bahasa Indonesia",
+    "teacher": "Ibu Siti Aminah",
     "progress": 30,
-    "chapters": [
-      {
-        "id": "chapter-physics-002-01",
-        "title": "Bab 1: Konsep Dasar Kuantum",
-        "lessons": [
-          {
-            "id": "lesson-physics-002-01-01",
-            "title": "Dualisme Gelombang-Partikel",
-            "type": "Video",
-            "status": "completed",
-            "content_url": "https://www.youtube.com/embed/example2"
-          }
-        ]
-      }
-    ]
+    "last_lesson": "Teks Eksplanasi"
+  },
+  {
+    "id": "3",
+    "title": "Fisika",
+    "teacher": "Agus Pratama, M.Pd",
+    "progress": 0,
+    "last_lesson": "Hukum Newton"
   }
 ]

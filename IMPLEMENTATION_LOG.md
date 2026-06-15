@@ -23,5 +23,5 @@
 - [X] Membuat mock data `user_profile.json`.
  - [X] Membuat mock data `schools.json`.
 - [X] Mengimplementasikan Halaman Login dengan selektor Unit Sekolah.
-- [ ] Membuat komponen `Layout` dengan `BottomNav` untuk akses mobile.
-- [ ] Membuat Halaman Dashboard Siswa (Ringkasan Progres).
+- [X] Membuat komponen `BottomNav` untuk akses mobile.
+- [X] Membuat Halaman Dashboard Siswa (Ringkasan Progres & Grid Kursus).
