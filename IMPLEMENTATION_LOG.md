@@ -22,6 +22,6 @@
 ### [ ] Action Items
 - [X] Membuat mock data `user_profile.json`.
  - [X] Membuat mock data `schools.json`.
-- [ ] Mengimplementasikan Halaman Login dengan selektor Unit Sekolah.
+- [X] Mengimplementasikan Halaman Login dengan selektor Unit Sekolah.
 - [ ] Membuat komponen `Layout` dengan `BottomNav` untuk akses mobile.
 - [ ] Membuat Halaman Dashboard Siswa (Ringkasan Progres).
