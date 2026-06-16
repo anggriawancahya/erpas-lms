@@ -30,6 +30,6 @@
 
 ### [ ] Action Items
 - [X] Standarisasi struktur data `courses.json` dengan detail silabus.
-- [ ] Mengimplementasikan Halaman Daftar Isi Kursus (`/courses/[id]`) dengan Silabus Accordion.
+- [X] Mengimplementasikan Halaman Daftar Isi Kursus (`/courses/[id]`) dengan Silabus Accordion.
 - [ ] Membuat Halaman Ruang Belajar (Lesson Player) untuk Video & Teks.
 - [ ] Integrasi navigasi antar materi (Tandai Selesai).

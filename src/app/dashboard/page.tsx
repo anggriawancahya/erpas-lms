@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import courses from '@/data/courses.json';
 import userProfile from '@/data/user_profile.json';
 import BottomNav from '@/components/BottomNav';
@@ -39,7 +40,9 @@ export default function StudentDashboard() {
               </div>
               <progress className="progress progress-primary w-full" value={activeCourse.progress} max="100"></progress>
               <div className="card-actions justify-end mt-2">
-                <button className="btn btn-primary btn-sm rounded-lg">Lanjut</button>
+                <Link href={`/courses/${activeCourse.id}`} className="btn btn-primary btn-sm rounded-lg">
+                  Lanjut
+                </Link>
               </div>
             </div>
           </div>
@@ -53,18 +56,22 @@ export default function StudentDashboard() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {courses.map((course) => (
-              <div key={course.id} className="card card-side bg-base-100 shadow-sm border border-base-300">
-                <figure className="w-24 bg-accent/20 flex items-center justify-center">
-                  <span className="text-2xl italic font-serif text-accent">{course.title.charAt(0)}</span>
-                </figure>
-                <div className="card-body p-4">
-                  <h3 className="card-title text-sm">{course.title}</h3>
-                  <p className="text-xs text-base-content/60">{course.teacher}</p>
-                  <div className="card-actions justify-end">
-                    <div className="badge badge-outline badge-sm">{course.progress}%</div>
+              <Link key={course.id} href={`/courses/${course.id}`}>
+                <div className="card card-side bg-base-100 shadow-sm border border-base-300 active:scale-95 transition-transform">
+                  <figure className="w-24 bg-accent/20 flex items-center justify-center">
+                    <span className="text-2xl italic font-serif text-accent">
+                      {course.title.charAt(0)}
+                    </span>
+                  </figure>
+                  <div className="card-body p-4">
+                    <h3 className="card-title text-sm">{course.title}</h3>
+                    <p className="text-xs text-base-content/60">{course.teacher}</p>
+                    <div className="card-actions justify-end">
+                      <div className="badge badge-outline badge-sm">{course.progress}%</div>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </section>
