@@ -12,7 +12,33 @@
         "lessons": [
           { "id": "l-1", "title": "Pengenalan Variabel", "type": "text", "completed": true },
           { "id": "l-2", "title": "Operasi Hitung Aljabar", "type": "video", "completed": true },
-          { "id": "l-3", "title": "Kuis Aljabar 1", "type": "quiz", "completed": false }
+          { 
+            "id": "l-3", 
+            "title": "Kuis Aljabar 1", 
+            "type": "quiz", 
+            "completed": false,
+            "duration_minutes": 15,
+            "questions": [
+              {
+                "id": "q1",
+                "question": "Berapakah nilai x dari persamaan 2x + 5 = 11?",
+                "options": ["2", "3", "4", "5", "6"],
+                "correct_index": 1
+              },
+              {
+                "id": "q2",
+                "question": "Hasil perkalian dari (x + 2)(x - 2) adalah...",
+                "options": ["x² + 4", "x² - 4", "x² - 4x + 4", "x² + 4x + 4", "2x - 4"],
+                "correct_index": 1
+              },
+              {
+                "id": "q3",
+                "question": "Sederhanakan bentuk aljabar berikut: 3a + 2b - a + 5b",
+                "options": ["2a + 7b", "4a + 7b", "2a + 3b", "4a + 3b", "7a + 2b"],
+                "correct_index": 0
+              }
+            ]
+          }
         ]
       },
       {

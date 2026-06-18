@@ -26,10 +26,18 @@
 - [X] Membuat komponen `BottomNav` untuk akses mobile.
 - [X] Membuat Halaman Dashboard Siswa (Ringkasan Progres & Grid Kursus).
 
-## Minggu 3: Konten & Ruang Belajar
+## Minggu 3: Konten & Ruang Belajar - SELESAI
 
 ### [ ] Action Items
 - [X] Standarisasi struktur data `courses.json` dengan detail silabus.
 - [X] Mengimplementasikan Halaman Daftar Isi Kursus (`/courses/[id]`) dengan Silabus Accordion.
 - [X] Membuat Halaman Ruang Belajar (Lesson Player) untuk Video & Teks.
 - [X] Integrasi navigasi antar materi (Tandai Selesai).
+
+## Minggu 4: Evaluasi & Panel Pengajar (In Progress)
+
+### [ ] Action Items
+- [X] Membuat Halaman Modul Kuis dengan Timer dan Navigasi Soal.
+- [ ] Membuat Halaman Buku Nilai (Gradebook) untuk Guru.
+- [ ] Implementasi Dasbor Pengajar (Ringkasan Kelas & Siswa).
+- [ ] Uji Coba Alur End-to-End (Siswa Login -> Belajar -> Kuis -> Guru Lihat Nilai).
