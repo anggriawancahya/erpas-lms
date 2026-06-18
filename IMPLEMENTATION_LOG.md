@@ -38,6 +38,6 @@
 
 ### [ ] Action Items
 - [X] Membuat Halaman Modul Kuis dengan Timer dan Navigasi Soal.
-- [ ] Membuat Halaman Buku Nilai (Gradebook) untuk Guru.
+- [X] Membuat Halaman Buku Nilai (Gradebook) untuk Guru.
 - [X] Implementasi Dasbor Pengajar (Ringkasan Kelas & Siswa).
-- [ ] Uji Coba Alur End-to-End (Siswa Login -> Belajar -> Kuis -> Guru Lihat Nilai).
+- [X] Uji Coba Alur End-to-End (Siswa Login -> Belajar -> Kuis -> Guru Lihat Nilai).
